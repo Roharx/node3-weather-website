@@ -20,8 +20,9 @@ weatherForm.addEventListener('submit', (e) => {
                 messageOne.textContent = 'Location: ' + data.location
                                             
                 messageTwo.textContent = 'Forecast: ' + data.forecast + ', ' +
-                'Temperature: ' + data.temperature + ', ' +
-                'Feelslike: ' + data.feelslike
+                'Temperature: ' + data.temperature + '°C, ' +
+                'Feelslike: ' + data.feelslike + '°C, ' +
+                'Wind Speed: ' + data.windSpeed + 'km/h'
             }
         })
     })
